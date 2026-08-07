@@ -1,13 +1,35 @@
-// Update this page (the content is just a fallback if you fail to update the page)
+import Layout from "@/components/layout/Layout";
+import Hero from "@/components/sections/Hero";
+import Stats from "@/components/sections/Stats";
+import Services from "@/components/sections/Services";
+import About from "@/components/sections/About";
+import Masters from "@/components/sections/Masters";
+import Process from "@/components/sections/Process";
+import Portfolio from "@/components/sections/Portfolio";
+import Pricing from "@/components/sections/Pricing";
+import Testimonials from "@/components/sections/Testimonials";
+import Booking from "@/components/sections/Booking";
+import FAQ from "@/components/sections/FAQ";
+import Contacts from "@/components/sections/Contacts";
+import CTA from "@/components/sections/CTA";
 
 const Index = () => {
   return (
-    <div className="min-h-screen flex items-center justify-center bg-gray-100">
-      <div className="text-center">
-        <h1 className="text-4xl font-bold mb-4 color-black text-black">Добро пожаловать!</h1>
-        <p className="text-xl text-gray-600">тут будет отображаться ваш проект</p>
-      </div>
-    </div>
+    <Layout>
+      <Hero />
+      <Stats />
+      <Services />
+      <About />
+      <Masters />
+      <Process />
+      <Portfolio />
+      <Pricing />
+      <Testimonials />
+      <Booking />
+      <FAQ />
+      <Contacts />
+      <CTA />
+    </Layout>
   );
 };
 
